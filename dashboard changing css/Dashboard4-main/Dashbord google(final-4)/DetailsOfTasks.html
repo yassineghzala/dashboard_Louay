@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Task Details</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="icon" href="assets/imgs/icon.png" type="icon_path" width="20px" height="20px">
+
+</head>
+
+<body class="body_style" onload="myFunction()" style="background: url('assets/imgs/endless-constellation.png')">
+    <div id="loading"><!--<iframe width="560" height="315" src="https://www.youtube.com/embed/L01JmA1M04k"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/L01JmA1M04k" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/L01JmA1M04k" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <iframe  class="iframe_style" width="560" height="315" src="https://www.youtube.com/embed/L01JmA1M04k" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe><iframe class="iframe_style" width="560" height="315" src="https://www.youtube.com/embed/L01JmA1M04k"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe><iframe class="iframe_style" width="560" height="315" src="https://www.youtube.com/embed/L01JmA1M04k"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>-->
+        <div style="border-radius: 50%;background-color: white;"></div>
+
+        <h1 style="text-align: center;position: relative;top:-45vh;color: white;" id="loadlogo">Tasks Details</h1>
+        <br><br><br>
+        <div style="position: absolute;top:25vh;">
+
+            <br><br>
+            <div><img src="assets/imgs/icon.png" alt="" id="loadlogo" style="width:
+            50%;height:40%"></div><br>
+            <div>
+                <h2 style="text-align: center;color: white;" id="loadlogo">Loading Tasks Details Please Wait</h2><br>
+                <div class="lds-ellipsis">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header_style"> <img class="img_position" src="assets/imgs/icon.png" alt="" width="50px" height="50px"
+            id="logotask">
+
+
+        <h1 style="text-align: center;position:relative;left:-2%;color:white" class="h1_style title1">Welcome To Task
+            Details menu
+        </h1>
+        <p style="opacity
+        :0;"></p>
+
+    </header>
+    <div class="containerAll">
+
+        <div class="conatinerDetails">
+            <div>
+                <form action="" name="f">
+                    <div class="select" style=" position: relative;top: 5vh;">
+                        <div class=" select"> <select class="select_style2" name="s" id="TestS">
+                                <option value="Default" selected>Select a task</option>
+                                <optgroup label="Department Media"></optgroup>
+                                <span onclick="test()">
+                                    <option value="m2" name="O">Magazine 2</option>
+                                </span>
+                                <option value="m1"> Magazine 1</option>
+                                <optgroup label="Department Dev"></optgroup>
+                                <option value="dg">Game Dev</option>
+                                <option value="dw">Google Web</option>
+                            </select>
+                            <div class="select_arrow">
+                            </div>
+                        </div>
+                </form>
+            </div><br><br>
+            <div class="test">
+                <div class="Default details_det_of_tasks" id="DEF"></div>
+                <div class="m2 details_det_of_tasks" style="background-color: white;border-radius: 20px;display: none;">
+                    <div><br><br>
+                        <h1 class="text-animation">Department Media</h1>
+                    </div>
+                    <div style=" background-color: white;padding: 10vh;border-radius: 20px;">
+                        <div> <label for="">Task Name :</label> <span id="test">Magazine 2</span><br>
+                        </div>
+                        <div style="background-color: white;padding-top:3vh;padding-left: 3vh ;"><label for=""
+                                class="label">Description:</label><br></div><br>
+                        <div>Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit.
+                            Hic
+                            assumenda reiciendis, nobis perspiciatis explicabo repudiandae voluptatibus, recusandae vero
+                            quos
+                            deleniti sint eligendi eum omnis quasi quam distinctio eveniet quae et.
+                            Earum rem ut accusantium, cum non odit, porro laboriosam asperiores ad ipsam dicta facere
+                            sit
+                            nostrum reprehenderit? Maxime amet excepturi consectetur eos ducimus placeat eum, suscipit
+                            possimus
+                            odio vel sed.
+                            Dolorum, nesciunt. Commodi quae perspiciatis nihil suscipit ipsa culpa ut possimus eaque aut
+                            veniam
+                            corporis ducimus eligendi quibusdam provident reprehenderit quisquam architecto, sint optio
+                            dignissimos ratione voluptatem perferendis nam? Enim.
+                            Provident nobis quod nulla culpa debitis iste illum necessitatibus placeat ipsum, omnis
+                            deserunt
+                            expedita asperiores ullam nostrum velit voluptates suscipit quia fugit inventore qui
+                            excepturi
+                            veniam nesciunt distinctio? Sint, fuga.
+                            Recusandae error sequi perspiciatis blanditiis optio. Animi reprehenderit, eos culpa
+                            suscipit
+                            enim
+                            nemo laudantium ad ducimus ex quod quis, odit fugiat quidem commodi pariatur sint. Autem,
+                            consequuntur quia. Repellendus, ab!
+                        </div>
+
+                    </div>
+
+                    <table class="table_style">
+                        <caption>Members Status About Task <br>
+                            <br>
+
+                        </caption><br>
+
+                        <thead class="thead_style">
+                            <tr class="tr_style">
+                                <th class="th_style" scope="col">Name</th>
+                                <th class="th_style" scope="col">Status</th>
+
+                                <th class="th_style" scope="col">Download the work</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody">
+                            <tr class="tr_style">
+                                <td class="td_style" data-label="Name">Taleb Mouelhi</td>
+                                <td class="td_style" data-label="Status">
+                                    Work done !
+                                </td>
+
+                                <td class="td_style" data-label="Details" class="c1">
+                                    <button class="download-btn" data-timer="0" onclick="download()">
+
+                                        <span class="text">Download Files</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="tr_style">
+                                <td class="td_style" data-label="Name">Louay Abdelkader</td>
+                                <td class="td_style" data-label="Status">
+                                    !
+                                </td>
+
+                                <td class="td_style" data-label="Details" class="c1">
+                                    <button class="download-btn" data-timer="0" disabled>
+
+                                        <span class="text">Download Files</span>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+        <br><br>
+        <a class="a_style" href="tasks.html">
+            <div style="display: flex;flex-wrap: wrap;justify-content: center;width:200px;">
+                <button class=" button_style normal_btn " id="buttonHeader">
+                    <i class="bi bi-arrow-bar-left"></i> Back To Tasks
+                </button>
+            </div>
+        </a>
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="assets/js/loading.js"></script>
+        <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
